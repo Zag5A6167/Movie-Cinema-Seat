@@ -1,0 +1,44 @@
+
+.seat{
+    background-color: rgb(142, 130, 130);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 1rem;
+    margin : 5px;
+    border-radius: 5px;
+    border-top: 3px solid black;
+    transition: transform 0.2s ease;
+    position: relative;
+    user-select: none;
+    text-align: center;
+   
+
+
+    
+}
+
+.seat:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+
+.seat.selected{
+    background-color: #0ed50e;
+}
+
+.seat.confirmed{
+    background-color: #d00202;
+    cursor: not-allowed;
+}
+
+
+.btn-confirm{
+    user-select: none;
+    margin-top: 1rem;
+}
