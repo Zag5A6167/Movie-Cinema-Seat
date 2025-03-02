@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({ 
   plugins: [react()],
-  base: '/zag5a6167/',
-});
+  base: mode === 'production' ? '/Movie-Cinema-Seat/' : '/', 
+  build: {
+    outDir: 'dist'
+  }
+}));

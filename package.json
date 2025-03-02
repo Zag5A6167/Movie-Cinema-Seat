@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://zag5a6167.github.io/Movie-Cinema-Seat",
+  "homepage": "https://Zag5A6167.github.io/Movie-Cinema-Seat",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
