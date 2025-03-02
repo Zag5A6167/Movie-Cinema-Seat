@@ -10,7 +10,6 @@ function MovieScreen() {
       if (audioRef.current) {
         audioRef.current.play().catch(error => {
           console.error("Audio playback failed:", error);
-          // Fallback to play audio on user interaction
           document.addEventListener('click', () => {
             audioRef.current.play().catch(err => console.error("Audio playback failed again:", err));
           }, { once: true });
