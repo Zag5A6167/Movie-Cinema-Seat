@@ -24,8 +24,8 @@ function MovieScreen() {
   return (
     <div className='movie-screen'>
       <img src="/cat.gif" alt="Movie Screen" className="movie-screen-gif" />
-      <audio ref={audioRef1} src="/people-talking.mp3" loop></audio>
-      <audio ref={audioRef2} src="/atmosphere1.mp3" loop></audio>
+      <audio ref={audioRef1} src="/Movie-Cinema-Seat/people-talking.mp3" loop></audio>
+      <audio ref={audioRef2} src="/Movie-Cinema-Seat/atmosphere1.mp3" loop></audio>
     </div>
   );
 }
